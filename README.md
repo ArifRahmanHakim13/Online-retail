@@ -195,5 +195,5 @@ Dengan menggunakan kode tersebut, Anda dapat dengan mudah membuat scatter plot y
 
 ## Deployment
 
-Link Streamlit : [Online Retail]()
-![Streamlit](Gambar\Streamlit.png)
+Link Streamlit : [Online Retail](https://online-retail-appsyhfgwcxjufersppxbip.streamlit.app/)
+![Streamlit](Gambar1.png)
