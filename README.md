@@ -67,15 +67,15 @@ Dataset yang digunakan: [Online Retail](https://www.kaggle.com/datasets/lakshmi2
 **Rubrik/Kriteria Tambahan (Opsional)**:
 
 - Visualisai Data
-  ![Visualisasi menggunakan Seaborn](img/Gambar2.png)
+  ![Visualisasi menggunakan Seaborn](Img/Gambar2.png)
   <br>
-  ![Visualisasi menggunakan Seaborn](img/Gambar3.png)
+  ![Visualisasi menggunakan Seaborn](Img/Gambar3.png)
   <br>
-  ![Visualisasi menggunakan Seaborn](img/Gambar4.png)
+  ![Visualisasi menggunakan Seaborn](Img/Gambar4.png)
   <br>
-  ![Visualisasi menggunakan Seaborn](img/Gambar5.png)
+  ![Visualisasi menggunakan Seaborn](Img/Gambar5.png)
   <br>
-  ![Visualisasi menggunakan Seaborn](img/Gambar6.png)
+  ![Visualisasi menggunakan Seaborn](Img/Gambar6.png)
   <br>
 
 ## Data Preparation
@@ -163,7 +163,7 @@ Menampilkan item-item yang sering muncul frq_items.sort_values("support", ascend
 ## Visualisasi Model
 
 membuat visualisasi distribusi tiga dimensi dari aturan asosiasi. Kode tersebut menggunakan library seaborn untuk mengatur gaya plot menjadi "whitegrid". Selanjutnya, kode tersebut membuat objek figure dengan ukuran 12x12 dan menambahkan subplot dengan proyeksi 3D ke dalam objek figure. Kemudian, nilai support, confidence, dan lift diambil dari dataframe rules dan disimpan dalam variabel x, y, dan z. Label sumbu x, y, dan z diatur pada plot, dan scatter plot dibuat menggunakan nilai x, y, dan z sebagai koordinat. Judul plot diatur, dan plot ditampilkan. Dengan menggunakan kode tersebut, Anda dapat dengan mudah membuat visualisasi distribusi tiga dimensi dari aturan asosiasi.
-![Visualisasi menggunakan Seaborn](img/gambar8.png)
+![Visualisasi menggunakan Seaborn](Img/gambar8.png)
 
 membuat scatter plot dari hubungan antara support, confidence, dan lift dalam aturan asosiasi. Berikut adalah penjelasan singkat dari setiap blok kode tersebut:
 
@@ -189,11 +189,11 @@ membuat scatter plot dari hubungan antara support, confidence, dan lift dalam at
    - Menampilkan plot dengan menggunakan plt.show().
 
 Dengan menggunakan kode tersebut, Anda dapat dengan mudah membuat scatter plot yang memvisualisasikan hubungan antara support, confidence, dan lift dalam aturan asosiasi
-![Visualisasi ](img/gambar10.png)
-![Visualisasi ](img/gambar11.png)
-![Visualisasi ](img/gambar12.png)
+![Visualisasi ](Img/gambar10.png)
+![Visualisasi ](Img/gambar11.png)
+![Visualisasi ](Img/gambar12.png)
 
 ## Deployment
 
 Link Streamlit : [Online Retail](https://online-retail-appsyhfgwcxjufersppxbip.streamlit.app/)
-![Streamlit](img/Gambar1.png)
+![Streamlit](Img/Gambar1.png)
